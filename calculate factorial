@@ -1,0 +1,17 @@
+import java.util.Scanner;
+
+class Demo{
+    public static void main(String[] args) {
+        //code to take a number and times it by the number and then decreasing integers e.g. 5x4x3x2x1)
+        
+        Scanner scanner = new Scanner(System.in);
+        int  number = scanner.nextInt();
+        int fact = 1;
+       
+        while(number>0){
+            fact*=number;
+        number--;    
+        }
+        System.out.println(fact);
+    }
+}
