@@ -1,0 +1,14 @@
+import java.util.Scanner;
+
+class Demo{
+    public static void main(String[] args) {
+        long fact = 1;
+        Scanner s = new Scanner (System.in);
+        int num = s.nextInt();
+
+        for(int x=1; x<=num; x++)
+        {fact*=x;}
+ 
+  System.out.println(fact);
+   }
+}
