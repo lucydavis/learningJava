@@ -2,8 +2,9 @@ import java.util.Scanner;
 
 class Demo{
     public static void main(String[] args) {
-        //code to take a number and times it by the number and then decreasing integers e.g. 5x4x3x2x1)
-        
+        /*code to take a number input and calculate the factorial. The factorial of a number is equal to the product of all numbers less than or equal to the given number. 
+        e.g. The factorial of 6 will be  6*5*4*3*2*1 = 720.
+        */
         Scanner scanner = new Scanner(System.in);
         int  number = scanner.nextInt();
         int fact = 1;
